@@ -23,7 +23,7 @@ nav {
    font-weight: bold;
    text-transform: uppercase;
 }
-nav a {
+nav {
    color: #fff;
 }
 nav:hover {
@@ -77,13 +77,25 @@ button:hover {
 
 label {
    display: inline;
-   width: 20%
+   width: 30%
+   padding-bottom: 20px;
+}
+select {
+   width: 70%
 }
 label p {
    text-align: right;
 }
 
-input, select {
+input {
    float: right;
    width: 80%
+}
+
+@media (max-width: 600px)  {
+   body {
+      margin: 0;
+      max-width: 100%;
+      padding: 20px 10px;
+   }
 }
