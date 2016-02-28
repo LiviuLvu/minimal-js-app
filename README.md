@@ -2,6 +2,7 @@
 javascript only tutorial, mvc style app
 
 This is a minimal app to create book data.
+CSS styling was added by me. The tutorial is js only.
 The entries are stored in local storage.
 
 Live preview here:
