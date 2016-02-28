@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <title>Book App</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+   <h1>Public Library</h1>
+   <h2>An Example of a Minimal JavaScript Front-End App</h2>
+   <h4>This app supports the following operations:</h4>
+   <menu>
+      <li>
+         <a href="listBooks.html">
+            <button type="button">
+               List all books
+            </button>
+         </a>
+      </li>
+      <li>
+         <a href="createBook.html">
+            <button type="button">
+               Add a new book
+            </button>
+         </a>
+      </li>
+      <li>
+         <a href="updateBook.html">
+            <button type="button">
+               Update a book
+            </button>
+         </a>
+      </li>
+      <li>
+         <a href="deleteBook.html">
+            <button type="button">
+               Delete a book
+            </button>
+         </a>
+      </li>
+      <li>
+         <button type="button" onclick="Book.clearData()">
+            Clear database
+         </button>
+      </li>
+      <li>
+         <button type="button" onclick="Book.createTestData()">
+            Create test data
+         </button>
+      </li>
+   </menu>
+   <script src="src/model/Book.js"></script>
+</body>
+
+</html>
