@@ -1,5 +1,5 @@
 # minimal-js-app
-pure js tutorial mvc style app
+javascript only tutorial, mvc style app
 
 minimal app to create book data
 the entries are stored in local storage
