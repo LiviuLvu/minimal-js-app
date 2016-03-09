@@ -6,6 +6,6 @@ CSS styling was added by me. The tutorial is js only.
 The entries are stored in local storage.
 
 Live preview here:
-http://lvudesign.com/test-book/index.html
+http://lvudesign.com/learning-minimal-js-app/
 
 Tutorial was made folowing this book http://web-engineering.info/tech/JsFrontendApp/book/index.html
